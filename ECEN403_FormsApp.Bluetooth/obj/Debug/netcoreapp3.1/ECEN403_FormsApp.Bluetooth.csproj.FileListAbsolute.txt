@@ -1,0 +1,10 @@
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\bin\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.deps.json
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\bin\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.dll
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\bin\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.pdb
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.AssemblyInfoInputs.cache
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.AssemblyInfo.cs
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.dll
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.pdb
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.csproj.AssemblyReference.cache
+C:\Users\Oscar Rodriguez\source\repos\ECEN403_FormsApp\ECEN403_FormsApp.Bluetooth\obj\Debug\netcoreapp3.1\ECEN403_FormsApp.Bluetooth.GeneratedMSBuildEditorConfig.editorconfig

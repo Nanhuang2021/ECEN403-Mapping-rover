@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "xFdTqzh4YwirSsEjPWbqU9VvKG01lfgS9fH2H3MOWmqJQjpxmBIBdT3uuYV3fgSPcPd2iY91x8mme57W0bFVDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oscar Rodriguez\\source\\repos\\ECEN403_FormsApp\\ECEN403_FormsApp.Bluetooth\\ECEN403_FormsApp.Bluetooth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oscar Rodriguez\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\Oscar Rodriguez\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.19041.1\\microsoft.windows.sdk.contracts.10.0.19041.1.nupkg.sha512",
+    "C:\\Users\\Oscar Rodriguez\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\Oscar Rodriguez\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
