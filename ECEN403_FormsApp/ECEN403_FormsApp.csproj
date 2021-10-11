@@ -4,14 +4,17 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="SimpleWifi.netstandard" Version="2.0.0" />
+    <PackageReference Include="SSH.NET" Version="2020.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ECEN403_FormsApp.Bluetooth\ECEN403_FormsApp.Bluetooth.csproj" />
+    <ProjectReference Include="..\SshConsoleApp\SshConsoleApp.csproj" />
   </ItemGroup>
 
   <ItemGroup>

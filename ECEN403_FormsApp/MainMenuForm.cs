@@ -67,10 +67,10 @@ namespace ECEN403_FormsApp
             Application.Exit();
         }
 
-        private void buttonWifiConnect_Click(object sender, EventArgs e)
+        private void buttonSSHConnect_Click(object sender, EventArgs e)
         {
             // Create an instance for WifiConnect window
-            WlanNetworkForm ChildForm = new WlanNetworkForm("Wifi Connect");
+            SSHconnectForm ChildForm = new SSHconnectForm("SSH Connect");
 
             ChildForm.Show();
             this.Hide();

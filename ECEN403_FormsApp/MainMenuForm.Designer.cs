@@ -33,7 +33,8 @@ namespace ECEN403_FormsApp
             this.btnErrorLogs = new System.Windows.Forms.Button();
             this.btnRoverStatus = new System.Windows.Forms.Button();
             this.btnInputCommands = new System.Windows.Forms.Button();
-            this.buttonWifiConnect = new System.Windows.Forms.Button();
+            this.buttonSSHConnect = new System.Windows.Forms.Button();
+            this.labelConnectionStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnChildFormLauncher
@@ -76,22 +77,33 @@ namespace ECEN403_FormsApp
             this.btnInputCommands.UseVisualStyleBackColor = true;
             this.btnInputCommands.Click += new System.EventHandler(this.BtnInputCommands_Click);
             // 
-            // buttonWifiConnect
+            // buttonSSHConnect
             // 
-            this.buttonWifiConnect.Location = new System.Drawing.Point(72, 55);
-            this.buttonWifiConnect.Name = "buttonWifiConnect";
-            this.buttonWifiConnect.Size = new System.Drawing.Size(146, 52);
-            this.buttonWifiConnect.TabIndex = 5;
-            this.buttonWifiConnect.Text = "Wifi Connect";
-            this.buttonWifiConnect.UseVisualStyleBackColor = true;
-            this.buttonWifiConnect.Click += new System.EventHandler(this.buttonWifiConnect_Click);
+            this.buttonSSHConnect.Location = new System.Drawing.Point(72, 55);
+            this.buttonSSHConnect.Name = "buttonSSHConnect";
+            this.buttonSSHConnect.Size = new System.Drawing.Size(146, 52);
+            this.buttonSSHConnect.TabIndex = 5;
+            this.buttonSSHConnect.Text = "SSH Connect";
+            this.buttonSSHConnect.UseVisualStyleBackColor = true;
+            this.buttonSSHConnect.Click += new System.EventHandler(this.buttonSSHConnect_Click);
+            // 
+            // labelConnectionStatus
+            // 
+            this.labelConnectionStatus.AutoSize = true;
+            this.labelConnectionStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelConnectionStatus.Location = new System.Drawing.Point(12, 9);
+            this.labelConnectionStatus.Name = "labelConnectionStatus";
+            this.labelConnectionStatus.Size = new System.Drawing.Size(110, 20);
+            this.labelConnectionStatus.TabIndex = 6;
+            this.labelConnectionStatus.Text = "Connected to: ";
             // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 448);
-            this.Controls.Add(this.buttonWifiConnect);
+            this.Controls.Add(this.labelConnectionStatus);
+            this.Controls.Add(this.buttonSSHConnect);
             this.Controls.Add(this.btnInputCommands);
             this.Controls.Add(this.btnRoverStatus);
             this.Controls.Add(this.btnErrorLogs);
@@ -101,6 +113,7 @@ namespace ECEN403_FormsApp
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EndProgram);
             this.Load += new System.EventHandler(this.MainMenuForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -109,7 +122,8 @@ namespace ECEN403_FormsApp
         private System.Windows.Forms.Button btnErrorLogs;
         private System.Windows.Forms.Button btnRoverStatus;
         private System.Windows.Forms.Button btnInputCommands;
-        private System.Windows.Forms.Button buttonWifiConnect;
+        private System.Windows.Forms.Button buttonSSHConnect;
+        private System.Windows.Forms.Label labelConnectionStatus;
     }
 }
 
